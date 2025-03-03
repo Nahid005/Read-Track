@@ -1,6 +1,8 @@
 const Footer = ()=> {
     return (
-        <h1>Footer</h1>
+        <footer className="text-center bg-[#dddddd] mt-16">
+            <p className="text-black font-worksanse py-2">&copy; 2025 Design and Develop by Read Track</p>
+        </footer>
     )
 }
 

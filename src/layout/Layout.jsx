@@ -4,11 +4,15 @@ import Header from "../components/Header/Header"
 
 const Layout = ()=> {
     return (
-        <div className="container mx-auto">
+        <>
             <Header></Header>
-            <Outlet></Outlet>
+            <main className="min-h-screen font-worksanse">
+                <div className="container mx-auto">
+                    <Outlet></Outlet>
+                </div>
+            </main>
             <Footer></Footer>
-        </div>
+        </>
     )
 }
 
